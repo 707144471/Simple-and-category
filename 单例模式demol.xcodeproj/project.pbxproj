@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D19C3191F00E39F00046BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C3181F00E39F00046BA5 /* main.m */; };
+		9D19C31C1F00E39F00046BA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C31B1F00E39F00046BA5 /* AppDelegate.m */; };
+		9D19C31F1F00E39F00046BA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C31E1F00E39F00046BA5 /* ViewController.m */; };
+		9D19C3221F00E3A000046BA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C3201F00E3A000046BA5 /* Main.storyboard */; };
+		9D19C3241F00E3A000046BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C3231F00E3A000046BA5 /* Assets.xcassets */; };
+		9D19C3271F00E3A000046BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C3251F00E3A000046BA5 /* LaunchScreen.storyboard */; };
+		9D19C3321F00E3A100046BA5 /* ____demolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C3311F00E3A100046BA5 /* ____demolTests.m */; };
+		9D19C33D1F00E3A100046BA5 /* ____demolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C33C1F00E3A100046BA5 /* ____demolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D19C32E1F00E3A000046BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D19C30C1F00E39E00046BA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D19C3131F00E39E00046BA5;
+			remoteInfo = "单例模式demol";
+		};
+		9D19C3391F00E3A100046BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D19C30C1F00E39E00046BA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D19C3131F00E39E00046BA5;
+			remoteInfo = "单例模式demol";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D19C3141F00E39E00046BA5 /* 单例模式demol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "单例模式demol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D19C3181F00E39F00046BA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D19C31A1F00E39F00046BA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D19C31B1F00E39F00046BA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D19C31D1F00E39F00046BA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D19C31E1F00E39F00046BA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D19C3211F00E3A000046BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D19C3231F00E3A000046BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D19C3261F00E3A000046BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D19C3281F00E3A000046BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D19C32D1F00E3A000046BA5 /* 单例模式demolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单例模式demolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D19C3311F00E3A100046BA5 /* ____demolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____demolTests.m"; sourceTree = "<group>"; };
+		9D19C3331F00E3A100046BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D19C3381F00E3A100046BA5 /* 单例模式demolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单例模式demolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D19C33C1F00E3A100046BA5 /* ____demolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____demolUITests.m"; sourceTree = "<group>"; };
+		9D19C33E1F00E3A100046BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D19C3111F00E39E00046BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D19C32A1F00E3A000046BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D19C3351F00E3A100046BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D19C30B1F00E39E00046BA5 = {
+			isa = PBXGroup;
+			children = (
+				9D19C3161F00E39E00046BA5 /* 单例模式demol */,
+				9D19C3301F00E3A100046BA5 /* 单例模式demolTests */,
+				9D19C33B1F00E3A100046BA5 /* 单例模式demolUITests */,
+				9D19C3151F00E39E00046BA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D19C3151F00E39E00046BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D19C3141F00E39E00046BA5 /* 单例模式demol.app */,
+				9D19C32D1F00E3A000046BA5 /* 单例模式demolTests.xctest */,
+				9D19C3381F00E3A100046BA5 /* 单例模式demolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D19C3161F00E39E00046BA5 /* 单例模式demol */ = {
+			isa = PBXGroup;
+			children = (
+				9D19C31A1F00E39F00046BA5 /* AppDelegate.h */,
+				9D19C31B1F00E39F00046BA5 /* AppDelegate.m */,
+				9D19C31D1F00E39F00046BA5 /* ViewController.h */,
+				9D19C31E1F00E39F00046BA5 /* ViewController.m */,
+				9D19C3201F00E3A000046BA5 /* Main.storyboard */,
+				9D19C3231F00E3A000046BA5 /* Assets.xcassets */,
+				9D19C3251F00E3A000046BA5 /* LaunchScreen.storyboard */,
+				9D19C3281F00E3A000046BA5 /* Info.plist */,
+				9D19C3171F00E39F00046BA5 /* Supporting Files */,
+			);
+			path = "单例模式demol";
+			sourceTree = "<group>";
+		};
+		9D19C3171F00E39F00046BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D19C3181F00E39F00046BA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D19C3301F00E3A100046BA5 /* 单例模式demolTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D19C3311F00E3A100046BA5 /* ____demolTests.m */,
+				9D19C3331F00E3A100046BA5 /* Info.plist */,
+			);
+			path = "单例模式demolTests";
+			sourceTree = "<group>";
+		};
+		9D19C33B1F00E3A100046BA5 /* 单例模式demolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D19C33C1F00E3A100046BA5 /* ____demolUITests.m */,
+				9D19C33E1F00E3A100046BA5 /* Info.plist */,
+			);
+			path = "单例模式demolUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D19C3131F00E39E00046BA5 /* 单例模式demol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D19C3411F00E3A100046BA5 /* Build configuration list for PBXNativeTarget "单例模式demol" */;
+			buildPhases = (
+				9D19C3101F00E39E00046BA5 /* Sources */,
+				9D19C3111F00E39E00046BA5 /* Frameworks */,
+				9D19C3121F00E39E00046BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "单例模式demol";
+			productName = "单例模式demol";
+			productReference = 9D19C3141F00E39E00046BA5 /* 单例模式demol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D19C32C1F00E3A000046BA5 /* 单例模式demolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D19C3441F00E3A100046BA5 /* Build configuration list for PBXNativeTarget "单例模式demolTests" */;
+			buildPhases = (
+				9D19C3291F00E3A000046BA5 /* Sources */,
+				9D19C32A1F00E3A000046BA5 /* Frameworks */,
+				9D19C32B1F00E3A000046BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D19C32F1F00E3A000046BA5 /* PBXTargetDependency */,
+			);
+			name = "单例模式demolTests";
+			productName = "单例模式demolTests";
+			productReference = 9D19C32D1F00E3A000046BA5 /* 单例模式demolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D19C3371F00E3A100046BA5 /* 单例模式demolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D19C3471F00E3A100046BA5 /* Build configuration list for PBXNativeTarget "单例模式demolUITests" */;
+			buildPhases = (
+				9D19C3341F00E3A100046BA5 /* Sources */,
+				9D19C3351F00E3A100046BA5 /* Frameworks */,
+				9D19C3361F00E3A100046BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D19C33A1F00E3A100046BA5 /* PBXTargetDependency */,
+			);
+			name = "单例模式demolUITests";
+			productName = "单例模式demolUITests";
+			productReference = 9D19C3381F00E3A100046BA5 /* 单例模式demolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D19C30C1F00E39E00046BA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = 123;
+				TargetAttributes = {
+					9D19C3131F00E39E00046BA5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 95326Y76J2;
+						ProvisioningStyle = Automatic;
+					};
+					9D19C32C1F00E3A000046BA5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 95326Y76J2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D19C3131F00E39E00046BA5;
+					};
+					9D19C3371F00E3A100046BA5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 95326Y76J2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D19C3131F00E39E00046BA5;
+					};
+				};
+			};
+			buildConfigurationList = 9D19C30F1F00E39E00046BA5 /* Build configuration list for PBXProject "单例模式demol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D19C30B1F00E39E00046BA5;
+			productRefGroup = 9D19C3151F00E39E00046BA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D19C3131F00E39E00046BA5 /* 单例模式demol */,
+				9D19C32C1F00E3A000046BA5 /* 单例模式demolTests */,
+				9D19C3371F00E3A100046BA5 /* 单例模式demolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D19C3121F00E39E00046BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D19C3271F00E3A000046BA5 /* LaunchScreen.storyboard in Resources */,
+				9D19C3241F00E3A000046BA5 /* Assets.xcassets in Resources */,
+				9D19C3221F00E3A000046BA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D19C32B1F00E3A000046BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D19C3361F00E3A100046BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D19C3101F00E39E00046BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D19C31F1F00E39F00046BA5 /* ViewController.m in Sources */,
+				9D19C31C1F00E39F00046BA5 /* AppDelegate.m in Sources */,
+				9D19C3191F00E39F00046BA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D19C3291F00E3A000046BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D19C3321F00E3A100046BA5 /* ____demolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D19C3341F00E3A100046BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D19C33D1F00E3A100046BA5 /* ____demolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D19C32F1F00E3A000046BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D19C3131F00E39E00046BA5 /* 单例模式demol */;
+			targetProxy = 9D19C32E1F00E3A000046BA5 /* PBXContainerItemProxy */;
+		};
+		9D19C33A1F00E3A100046BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D19C3131F00E39E00046BA5 /* 单例模式demol */;
+			targetProxy = 9D19C3391F00E3A100046BA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D19C3201F00E3A000046BA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D19C3211F00E3A000046BA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D19C3251F00E3A000046BA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D19C3261F00E3A000046BA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D19C33F1F00E3A100046BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D19C3401F00E3A100046BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D19C3421F00E3A100046BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95326Y76J2;
+				INFOPLIST_FILE = "单例模式demol/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrHan.----demol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D19C3431F00E3A100046BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95326Y76J2;
+				INFOPLIST_FILE = "单例模式demol/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrHan.----demol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D19C3451F00E3A100046BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 95326Y76J2;
+				INFOPLIST_FILE = "单例模式demolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrHan.----demolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/单例模式demol.app/单例模式demol";
+			};
+			name = Debug;
+		};
+		9D19C3461F00E3A100046BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 95326Y76J2;
+				INFOPLIST_FILE = "单例模式demolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrHan.----demolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/单例模式demol.app/单例模式demol";
+			};
+			name = Release;
+		};
+		9D19C3481F00E3A100046BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 95326Y76J2;
+				INFOPLIST_FILE = "单例模式demolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrHan.----demolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "单例模式demol";
+			};
+			name = Debug;
+		};
+		9D19C3491F00E3A100046BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 95326Y76J2;
+				INFOPLIST_FILE = "单例模式demolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrHan.----demolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "单例模式demol";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D19C30F1F00E39E00046BA5 /* Build configuration list for PBXProject "单例模式demol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D19C33F1F00E3A100046BA5 /* Debug */,
+				9D19C3401F00E3A100046BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D19C3411F00E3A100046BA5 /* Build configuration list for PBXNativeTarget "单例模式demol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D19C3421F00E3A100046BA5 /* Debug */,
+				9D19C3431F00E3A100046BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D19C3441F00E3A100046BA5 /* Build configuration list for PBXNativeTarget "单例模式demolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D19C3451F00E3A100046BA5 /* Debug */,
+				9D19C3461F00E3A100046BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D19C3471F00E3A100046BA5 /* Build configuration list for PBXNativeTarget "单例模式demolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D19C3481F00E3A100046BA5 /* Debug */,
+				9D19C3491F00E3A100046BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D19C30C1F00E39E00046BA5 /* Project object */;
+}
