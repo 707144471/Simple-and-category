@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "NSObject+DELEGATE_demol.h"
+#import "ShaoLin.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +17,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor=[UIColor greenColor];
+    NSString *str=[self string];//类别
+    NSLog(@"str=====%@",str);
+    ShaoLin *a=[ShaoLin hanXianSheng];//单利
+    a.name=@"我是a的name的值";
+    if (a.why) {
+        NSLog(@"++++++是不是yes");
+    }
+    ShaoLin *b=[ShaoLin hanXianSheng];
+    b.why=YES;
+    NSLog(@"b.name====%@",b.name);
+    NSLog(@"%@",a);
+    NSLog(@"%@",b);
+    
+    if ([self whyIsYesAndNo]) {
+        NSLog(@"-----是不是yes");
+    }
+   
     // Do any additional setup after loading the view, typically from a nib.
 }
 

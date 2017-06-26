@@ -15,6 +15,8 @@
 		9D19C3271F00E3A000046BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C3251F00E3A000046BA5 /* LaunchScreen.storyboard */; };
 		9D19C3321F00E3A100046BA5 /* ____demolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C3311F00E3A100046BA5 /* ____demolTests.m */; };
 		9D19C33D1F00E3A100046BA5 /* ____demolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C33C1F00E3A100046BA5 /* ____demolUITests.m */; };
+		9D19C34C1F00E40D00046BA5 /* NSObject+DELEGATE_demol.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C34B1F00E40D00046BA5 /* NSObject+DELEGATE_demol.m */; };
+		9D19C34F1F00E8CA00046BA5 /* ShaoLin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C34E1F00E8CA00046BA5 /* ShaoLin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9D19C3381F00E3A100046BA5 /* 单例模式demolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单例模式demolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D19C33C1F00E3A100046BA5 /* ____demolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____demolUITests.m"; sourceTree = "<group>"; };
 		9D19C33E1F00E3A100046BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D19C34A1F00E40D00046BA5 /* NSObject+DELEGATE_demol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DELEGATE_demol.h"; sourceTree = "<group>"; };
+		9D19C34B1F00E40D00046BA5 /* NSObject+DELEGATE_demol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DELEGATE_demol.m"; sourceTree = "<group>"; };
+		9D19C34D1F00E8CA00046BA5 /* ShaoLin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaoLin.h; sourceTree = "<group>"; };
+		9D19C34E1F00E8CA00046BA5 /* ShaoLin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaoLin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				9D19C31B1F00E39F00046BA5 /* AppDelegate.m */,
 				9D19C31D1F00E39F00046BA5 /* ViewController.h */,
 				9D19C31E1F00E39F00046BA5 /* ViewController.m */,
+				9D19C34A1F00E40D00046BA5 /* NSObject+DELEGATE_demol.h */,
+				9D19C34B1F00E40D00046BA5 /* NSObject+DELEGATE_demol.m */,
+				9D19C34D1F00E8CA00046BA5 /* ShaoLin.h */,
+				9D19C34E1F00E8CA00046BA5 /* ShaoLin.m */,
 				9D19C3201F00E3A000046BA5 /* Main.storyboard */,
 				9D19C3231F00E3A000046BA5 /* Assets.xcassets */,
 				9D19C3251F00E3A000046BA5 /* LaunchScreen.storyboard */,
@@ -276,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D19C34F1F00E8CA00046BA5 /* ShaoLin.m in Sources */,
 				9D19C31F1F00E39F00046BA5 /* ViewController.m in Sources */,
 				9D19C31C1F00E39F00046BA5 /* AppDelegate.m in Sources */,
+				9D19C34C1F00E40D00046BA5 /* NSObject+DELEGATE_demol.m in Sources */,
 				9D19C3191F00E39F00046BA5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
