@@ -17,6 +17,7 @@
 		9D19C33D1F00E3A100046BA5 /* ____demolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C33C1F00E3A100046BA5 /* ____demolUITests.m */; };
 		9D19C34C1F00E40D00046BA5 /* NSObject+DELEGATE_demol.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C34B1F00E40D00046BA5 /* NSObject+DELEGATE_demol.m */; };
 		9D19C34F1F00E8CA00046BA5 /* ShaoLin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D19C34E1F00E8CA00046BA5 /* ShaoLin.m */; };
+		9D19C3621F0347F100046BA5 /* keep.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9D19C3611F03431700046BA5 /* keep.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		9D19C34B1F00E40D00046BA5 /* NSObject+DELEGATE_demol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DELEGATE_demol.m"; sourceTree = "<group>"; };
 		9D19C34D1F00E8CA00046BA5 /* ShaoLin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaoLin.h; sourceTree = "<group>"; };
 		9D19C34E1F00E8CA00046BA5 /* ShaoLin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaoLin.m; sourceTree = "<group>"; };
+		9D19C3611F03431700046BA5 /* keep.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = keep.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				9D19C34B1F00E40D00046BA5 /* NSObject+DELEGATE_demol.m */,
 				9D19C34D1F00E8CA00046BA5 /* ShaoLin.h */,
 				9D19C34E1F00E8CA00046BA5 /* ShaoLin.m */,
+				9D19C3611F03431700046BA5 /* keep.mp4 */,
 				9D19C3201F00E3A000046BA5 /* Main.storyboard */,
 				9D19C3231F00E3A000046BA5 /* Assets.xcassets */,
 				9D19C3251F00E3A000046BA5 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D19C3621F0347F100046BA5 /* keep.mp4 in Resources */,
 				9D19C3271F00E3A000046BA5 /* LaunchScreen.storyboard in Resources */,
 				9D19C3241F00E3A000046BA5 /* Assets.xcassets in Resources */,
 				9D19C3221F00E3A000046BA5 /* Main.storyboard in Resources */,
@@ -530,6 +534,7 @@
 				9D19C3431F00E3A100046BA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D19C3441F00E3A100046BA5 /* Build configuration list for PBXNativeTarget "单例模式demolTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +543,7 @@
 				9D19C3461F00E3A100046BA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D19C3471F00E3A100046BA5 /* Build configuration list for PBXNativeTarget "单例模式demolUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +552,7 @@
 				9D19C3491F00E3A100046BA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
